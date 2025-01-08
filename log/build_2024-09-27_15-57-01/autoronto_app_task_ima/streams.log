@@ -1,0 +1,37 @@
+[0.011s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[0.372s] [ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[0.426s] [ 50%] Built target listener
+[0.470s] [35m[1mConsolidate compiler generated dependencies of target solver[0m
+[0.739s] [ 66%] [32mBuilding CXX object CMakeFiles/solver.dir/src/solution.cpp.o[0m
+[21.531s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[21.532s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:48:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[21.532s]    48 |                 int8_t [01;35m[Ktmp[m[K=payload[i];
+[21.533s]       |                        [01;35m[K^~~[m[K
+[45.218s] [ 83%] [32m[1mLinking CXX executable talker[0m
+[46.936s] [ 83%] Built target talker
+[90.732s] [100%] [32m[1mLinking CXX executable solver[0m
+[95.623s] [100%] Built target solver
+[95.834s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[96.112s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima
+[96.148s] -- Install configuration: ""
+[96.162s] -- Installing: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/talker
+[96.162s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/talker" to ""
+[96.162s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/listener
+[96.163s] -- Installing: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/solver
+[96.413s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/solver" to ""
+[96.414s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/ament_index/resource_index/package_run_dependencies/autoronto_app_task_ima
+[96.414s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/ament_index/resource_index/parent_prefix_path/autoronto_app_task_ima
+[96.414s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/environment/ament_prefix_path.sh
+[96.415s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/environment/ament_prefix_path.dsv
+[96.434s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/environment/path.sh
+[96.435s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/environment/path.dsv
+[96.436s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/local_setup.bash
+[96.437s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/local_setup.sh
+[96.438s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/local_setup.zsh
+[96.438s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/local_setup.dsv
+[96.438s] -- Installing: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.dsv
+[96.438s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/ament_index/resource_index/packages/autoronto_app_task_ima
+[96.438s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/cmake/autoronto_app_task_imaConfig.cmake
+[96.438s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/cmake/autoronto_app_task_imaConfig-version.cmake
+[96.439s] -- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.xml
+[96.439s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima

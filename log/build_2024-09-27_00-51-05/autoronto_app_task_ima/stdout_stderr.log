@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 33%] Built target listener
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[ 83%] Built target solver
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:39:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   39 |     msg.layout.dim.push_back(m_a_d[01;31m[K)[m[K; // because we know the topic /input sends array (1-dim), we only push once
+      |                                   [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:39:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint8_t*[m[K’ {aka ‘[01m[Ksigned char*[m[K’} to ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   47 |     std::memcpy(&vec, payload, [01;31m[Kpayload+9[m[K);
+      |                                [01;31m[K~~~~~~~^~[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[Kint8_t* {aka signed char*}[m[K
+In file included from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:11[m[K:
+[01m[K/usr/include/string.h:44:29:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’
+   44 |                      [01;36m[Ksize_t __n[m[K) __THROW __nonnull ((1, 2));
+      |                      [01;36m[K~~~~~~~^~~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of type ‘[01m[Kclass std::vector<signed char, std::allocator<signed char> >[m[K’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+   47 |     [01;35m[Kstd::memcpy(&vec, payload, payload+9)[m[K;
+      |     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:6[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:389:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass std::vector<signed char, std::allocator<signed char> >[m[K’ declared here
+  389 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+      |           [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

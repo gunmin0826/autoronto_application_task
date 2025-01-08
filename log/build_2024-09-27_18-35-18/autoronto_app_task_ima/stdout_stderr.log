@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 33%] Built target listener
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[ 83%] Built target solver
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:37:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInputPublisher::count_subscribers()[m[K’
+   37 |                 size_t numSub = [01;31m[Kthis->count_subscribers()[m[K;
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1024:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksize_t rclcpp::Node::count_subscribers(const string&) const[m[K’
+ 1024 |   [01;36m[Kcount_subscribers[m[K(const std::string & topic_name) const;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1024:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid TargetPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:85:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTargetPublisher::count_subscribers()[m[K’
+   85 |         size_t numSub =  [01;31m[Kthis->count_subscribers()[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1024:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksize_t rclcpp::Node::count_subscribers(const string&) const[m[K’
+ 1024 |   [01;36m[Kcount_subscribers[m[K(const std::string & topic_name) const;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1024:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

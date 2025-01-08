@@ -1,0 +1,41 @@
+[ 33%] Built target talker
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/test_sub.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target solver[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/solver.dir/src/solution.cpp.o[0m
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:3:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #inclue; did you mean #include?
+    3 | #[01;31m[Kinclue[m[K <string>
+      |  [01;31m[K^~~~~~[m[K
+      |  [32m[Kinclude[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:[m[K In member function ‘[01m[Kvoid SolutionSubscriber::topic_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:28:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ksol[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   28 |     int8_t [01;35m[Ksol[m[K[length];
+      |            [01;35m[K^~~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:32:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+   32 |                 int8_t [01;31m[K=[m[K tmp = solution->data[i];
+      |                        [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:33:71:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   33 |                 if (i==0){ log_this += "solution: [" + std::to_string([01;31m[Ktmp[m[K) + ", ";}
+      |                                                                       [01;31m[K^~~[m[K
+      |                                                                       [32m[Ktm[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:34:74:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   34 |                 else if (i==offset+length-1){ log_this += std::to_string([01;31m[Ktmp[m[K) + "]";}
+      |                                                                          [01;31m[K^~~[m[K
+      |                                                                          [32m[Ktm[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:35:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klogthis[m[K’ was not declared in this scope; did you mean ‘[01m[Klog_this[m[K’?
+   35 |                 else { [01;31m[Klogthis[m[K += std::to_string(tmp) + ", ";}
+      |                        [01;31m[K^~~~~~~[m[K
+      |                        [32m[Klog_this[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:35:50:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   35 |                 else { logthis += std::to_string([01;31m[Ktmp[m[K) + ", ";}
+      |                                                  [01;31m[K^~~[m[K
+      |                                                  [32m[Ktm[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:36:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   36 |                 sol[i-offset] = [01;31m[Ktmp[m[K;
+      |                                 [01;31m[K^~~[m[K
+      |                                 [32m[Ktm[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/test_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable solver[0m
+[ 83%] Built target solver
+gmake: *** [Makefile:146: all] Error 2

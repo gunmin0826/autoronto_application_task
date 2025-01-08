@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[ 50%] Built target listener
+[ 83%] Built target solver
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:39:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   39 |     msg.layout.dim.push_back(mad[01;31m[K)[m[K; // because we know the topic /input sends array (1-dim), we only push once
+      |                                 [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:37:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ksizeof[m[K’
+   47 |     std::memcpy(&vec, payload, std::[01;31m[Ksizeof[m[K(payload));
+      |                                     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

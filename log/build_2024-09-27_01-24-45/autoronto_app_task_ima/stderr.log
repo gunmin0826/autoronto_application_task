@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:170: CMakeFiles/listener.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/listener.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:170: CMakeFiles/talker.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/talker.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

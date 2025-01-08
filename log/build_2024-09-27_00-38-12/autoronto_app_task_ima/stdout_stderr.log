@@ -1,0 +1,280 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 33%] Built target listener
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[ 83%] Built target solver
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:39:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   39 |     msg.layout.dim.push_back(m_a_d[01;31m[K)[m[K; // because we know the topic /input sends array (1-dim), we only push once
+      |                                   [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 |     int8 payload[9] = {int8(1[01;31m[K)[m[K,int8(2),int8(3),int8(5),int8(8),int8(13),int8(21),int8(34),int8(55)};
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 |     int8 payload[9] = {int8(1),int8(2[01;31m[K)[m[K,int8(3),int8(5),int8(8),int8(13),int8(21),int8(34),int8(55)};
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 |     int8 payload[9] = {int8(1),int8(2),int8(3[01;31m[K)[m[K,int8(5),int8(8),int8(13),int8(21),int8(34),int8(55)};
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 |     int8 payload[9] = {int8(1),int8(2),int8(3),int8(5[01;31m[K)[m[K,int8(8),int8(13),int8(21),int8(34),int8(55)};
+      |                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 |    int8 payload[9] = {int8(1),int8(2),int8(3),int8(5),int8(8[01;31m[K)[m[K,int8(13),int8(21),int8(34),int8(55)};
+      |                                                             [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 | ayload[9] = {int8(1),int8(2),int8(3),int8(5),int8(8),int8(13[01;31m[K)[m[K,int8(21),int8(34),int8(55)};
+      |                                                             [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 |  = {int8(1),int8(2),int8(3),int8(5),int8(8),int8(13),int8(21[01;31m[K)[m[K,int8(34),int8(55)};
+      |                                                             [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 | 1),int8(2),int8(3),int8(5),int8(8),int8(13),int8(21),int8(34[01;31m[K)[m[K,int8(55)};
+      |                                                             [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int)[m[K’
+   46 | ),int8(2),int8(3),int8(5),int8(8),int8(13),int8(21),int8(34),int8(55[01;31m[K)[m[K};
+      |                                                                     [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KInt8_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:39:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint8*[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >*[m[K’} to ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   47 |     std::memcpy(&vec, payload, [01;31m[Kpayload+9[m[K);
+      |                                [01;31m[K~~~~~~~^~[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[Kint8* {aka std_msgs::msg::Int8_<std::allocator<void> >*}[m[K
+In file included from [01m[K/opt/ros/humble/include/rcutils/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:11[m[K:
+[01m[K/usr/include/string.h:44:29:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’
+   44 |                      [01;36m[Ksize_t __n[m[K) __THROW __nonnull ((1, 2));
+      |                      [01;36m[K~~~~~~~^~~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of type ‘[01m[Kclass std::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+   47 |     [01;35m[Kstd::memcpy(&vec, payload, payload+9)[m[K;
+      |     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:6[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:389:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass std::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ declared here
+  389 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:49:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >[m[K’} and ‘[01m[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’)
+   49 |     msg.data = [01;31m[Kvec[m[K;
+      |                [01;31m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:6[m[K:
+[01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = signed char; _Alloc = std::allocator<signed char>][m[K’
+  198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::vector<signed char, std::allocator<signed char> >&[m[K’
+  199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:6[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = signed char; _Alloc = std::allocator<signed char>][m[K’
+  709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ to ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >&&[m[K’
+  709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+      |                 [01;36m[K~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = signed char; _Alloc = std::allocator<signed char>][m[K’
+  730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ to ‘[01m[Kstd::initializer_list<signed char>[m[K’
+  730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

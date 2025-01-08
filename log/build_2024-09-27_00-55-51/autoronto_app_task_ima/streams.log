@@ -1,0 +1,16 @@
+[0.057s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[0.464s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.480s] [ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[0.592s] [ 50%] Built target listener
+[1.003s] [ 83%] Built target solver
+[11.261s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[11.266s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:39:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[11.267s]    39 |     msg.layout.dim.push_back(mad[01;31m[K)[m[K; // because we know the topic /input sends array (1-dim), we only push once
+[11.268s]       |                                 [01;31m[K^[m[K
+[11.274s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:37:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Ksizeof[m[K’
+[11.274s]    47 |     std::memcpy(&vec, payload, std::[01;31m[Ksizeof[m[K(payload));
+[11.274s]       |                                     [01;31m[K^~~~~~[m[K
+[14.649s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+[14.650s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+[14.653s] gmake: *** [Makefile:146: all] Error 2
+[14.667s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2

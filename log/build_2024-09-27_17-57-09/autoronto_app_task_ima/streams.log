@@ -1,0 +1,14 @@
+[0.026s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.148s] [ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[0.170s] [ 50%] Built target listener
+[0.232s] [ 83%] Built target solver
+[4.225s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[4.225s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_random_engine[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[4.225s]    47 | huffle (std::begin(payload), std::end(payload), std::[01;31m[Kdefault_random_engine[m[K(seed)); // shuffle the order of payload
+[4.225s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.225s] 
+[6.863s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+[6.866s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+[6.867s] gmake: *** [Makefile:146: all] Error 2
+[6.868s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2

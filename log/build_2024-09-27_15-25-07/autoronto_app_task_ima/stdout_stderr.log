@@ -1,0 +1,11 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[ 50%] Built target listener
+[35m[1mConsolidate compiler generated dependencies of target solver[0m
+[ 83%] Built target solver
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:62:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_size[m[K’ was not declared in this scope
+   62 |                                 else if (i == [01;31m[Kinput_size[m[K-1){
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

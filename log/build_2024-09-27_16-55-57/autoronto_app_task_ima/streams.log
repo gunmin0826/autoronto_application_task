@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[0.667s] [ 33%] Built target talker
+[0.843s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/test_sub.cpp.o[0m
+[0.920s] [35m[1mConsolidate compiler generated dependencies of target solver[0m
+[1.231s] [ 66%] [32mBuilding CXX object CMakeFiles/solver.dir/src/solution.cpp.o[0m
+[1.844s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:3:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #inclue; did you mean #include?
+[1.844s]     3 | #[01;31m[Kinclue[m[K <string>
+[1.845s]       |  [01;31m[K^~~~~~[m[K
+[1.845s]       |  [32m[Kinclude[m[K
+[24.741s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:[m[K In member function ‘[01m[Kvoid SolutionSubscriber::topic_callback(const ConstSharedPtr&)[m[K’:
+[24.741s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:28:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ksol[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[24.741s]    28 |     int8_t [01;35m[Ksol[m[K[length];
+[24.741s]       |            [01;35m[K^~~[m[K
+[24.742s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:32:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+[24.742s]    32 |                 int8_t [01;31m[K=[m[K tmp = solution->data[i];
+[24.742s]       |                        [01;31m[K^[m[K
+[24.801s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:33:71:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[24.802s]    33 |                 if (i==0){ log_this += "solution: [" + std::to_string([01;31m[Ktmp[m[K) + ", ";}
+[24.802s]       |                                                                       [01;31m[K^~~[m[K
+[24.802s]       |                                                                       [32m[Ktm[m[K
+[24.811s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:34:74:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[24.811s]    34 |                 else if (i==offset+length-1){ log_this += std::to_string([01;31m[Ktmp[m[K) + "]";}
+[24.811s]       |                                                                          [01;31m[K^~~[m[K
+[24.811s]       |                                                                          [32m[Ktm[m[K
+[24.822s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:35:24:[m[K [01;31m[Kerror: [m[K‘[01m[Klogthis[m[K’ was not declared in this scope; did you mean ‘[01m[Klog_this[m[K’?
+[24.822s]    35 |                 else { [01;31m[Klogthis[m[K += std::to_string(tmp) + ", ";}
+[24.822s]       |                        [01;31m[K^~~~~~~[m[K
+[24.822s]       |                        [32m[Klog_this[m[K
+[24.840s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:35:50:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[24.840s]    35 |                 else { logthis += std::to_string([01;31m[Ktmp[m[K) + ", ";}
+[24.840s]       |                                                  [01;31m[K^~~[m[K
+[24.841s]       |                                                  [32m[Ktm[m[K
+[24.851s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:36:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktmp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[25.019s]    36 |                 sol[i-offset] = [01;31m[Ktmp[m[K;
+[25.020s]       |                                 [01;31m[K^~~[m[K
+[25.021s]       |                                 [32m[Ktm[m[K
+[51.491s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/test_sub.cpp.o] Error 1
+[51.501s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2
+[51.502s] gmake[1]: *** Waiting for unfinished jobs....
+[121.946s] [ 83%] [32m[1mLinking CXX executable solver[0m
+[127.468s] [ 83%] Built target solver
+[127.472s] gmake: *** [Makefile:146: all] Error 2
+[127.488s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2

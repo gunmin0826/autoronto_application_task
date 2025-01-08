@@ -1,0 +1,17 @@
+[0.042s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.911s] [ 33%] Built target listener
+[0.922s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[1.137s] [ 83%] Built target solver
+[30.287s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[30.287s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_random_engine[m[K’ was not declared in this scope
+[30.287s]    47 | td::shuffle (std::begin(payload), std::end(payload), [01;31m[Kdefault_random_engine[m[K(seed)); // shuffle the order of payload
+[30.287s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[30.288s] 
+[30.458s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:50:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[30.458s]    50 |                 int8_t [01;35m[Ktmp[m[K=payload[i];
+[30.458s]       |                        [01;35m[K^~~[m[K
+[42.187s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+[42.188s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+[42.193s] gmake: *** [Makefile:146: all] Error 2
+[42.197s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2

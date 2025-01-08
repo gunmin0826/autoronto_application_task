@@ -1,0 +1,4 @@
+source;share/autoronto_app_task_ima/local_setup.bash
+source;share/autoronto_app_task_ima/local_setup.dsv
+source;share/autoronto_app_task_ima/local_setup.sh
+source;share/autoronto_app_task_ima/local_setup.zsh

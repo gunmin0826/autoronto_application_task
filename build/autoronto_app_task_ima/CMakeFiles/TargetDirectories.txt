@@ -1,0 +1,12 @@
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/uninstall.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/autoronto_app_task_ima_uninstall.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/talker.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/listener.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/solver.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/test.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/edit_cache.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/list_install_components.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/install.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/install/local.dir
+/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima/CMakeFiles/install/strip.dir

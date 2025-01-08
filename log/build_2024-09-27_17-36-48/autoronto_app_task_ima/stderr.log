@@ -1,0 +1,21 @@
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[Kpayload[m[K’, which is of non-class type ‘[01m[Kint8_t [10][m[K’ {aka ‘[01m[Ksigned char [10][m[K’}
+   47 |     std::shuffle (payload.[01;31m[Kbegin[m[K(), payload.end(), std::default_random_engine(seed)); // shuffle the order of payload
+      |                           [01;31m[K^~~~~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[Kpayload[m[K’, which is of non-class type ‘[01m[Kint8_t [10][m[K’ {aka ‘[01m[Ksigned char [10][m[K’}
+   47 |     std::shuffle (payload.begin(), payload.[01;31m[Kend[m[K(), std::default_random_engine(seed)); // shuffle the order of payload
+      |                                            [01;31m[K^~~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_random_engine[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   47 |   std::shuffle (payload.begin(), payload.end(), std::[01;31m[Kdefault_random_engine[m[K(seed)); // shuffle the order of payload
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:50:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |                 int8_t [01;35m[Ktmp[m[K=payload[i];
+      |                        [01;35m[K^~~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid TargetPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:89:49:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K144[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kint8_t[m[K’ {aka ‘[01m[Ksigned char[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   89 |         int8_t LUT[9] ={3,5,8,13,21,34,55,89,144[01;31m[K}[m[K; // for testing purpose create array of fibonacci numbers
+      |                                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

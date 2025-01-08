@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 33%] Built target talker
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/solver.dir/src/solution.cpp.o[0m
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:[m[K In member function ‘[01m[Kvoid time_sync::SyncCallback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:66:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   66 |                 [01;31m[Kfor[m[K(int i=input_offset; i<input_size+input_offset; i+=input_stride){
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:66:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   66 |                 for(int i=input_offset; [01;31m[Ki[m[K<input_size+input_offset; i+=input_stride){
+      |                                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/solver.dir/build.make:76: CMakeFiles/solver.dir/src/solution.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/solver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

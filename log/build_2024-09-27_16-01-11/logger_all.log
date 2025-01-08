@@ -1,0 +1,104 @@
+[0.927s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'autoronto_app_task_ima']
+[0.927s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['autoronto_app_task_ima'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x791dbc341ea0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x791dbc3419f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x791dbc3419f0>>, mixin_verb=('build',))
+[2.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.221s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.261s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'autoronto_app_task_ima'
+[2.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.594s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install
+[2.596s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[2.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'cmake_args' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'cmake_target' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'cmake_clean_cache' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'cmake_clean_first' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'cmake_force_configure' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'ament_cmake_args' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'catkin_cmake_args' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'autoronto_app_task_ima' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.941s] DEBUG:colcon.colcon_core.verb:Building package 'autoronto_app_task_ima' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima', 'merge_install': False, 'path': '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima', 'symlink_install': False, 'test_result_base': None}
+[2.942s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima' with build type 'ament_cmake'
+[2.944s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima'
+[2.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[99.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[100.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima
+[101.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoronto_app_task_ima)
+[101.439s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima' for CMake module files
+[101.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima
+[101.460s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima' for CMake config files
+[101.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoronto_app_task_ima', 'cmake_prefix_path')
+[101.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/hook/cmake_prefix_path.ps1'
+[101.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/hook/cmake_prefix_path.dsv'
+[101.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/hook/cmake_prefix_path.sh'
+[101.487s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib'
+[101.488s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/bin'
+[101.488s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/pkgconfig/autoronto_app_task_ima.pc'
+[101.489s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/python3.10/site-packages'
+[101.490s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/bin'
+[101.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.ps1'
+[101.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.dsv'
+[101.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.sh'
+[101.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.bash'
+[101.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.zsh'
+[101.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/colcon-core/packages/autoronto_app_task_ima)
+[102.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoronto_app_task_ima)
+[102.505s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima' for CMake module files
+[102.626s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima' for CMake config files
+[102.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoronto_app_task_ima', 'cmake_prefix_path')
+[102.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/hook/cmake_prefix_path.ps1'
+[102.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/hook/cmake_prefix_path.dsv'
+[102.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/hook/cmake_prefix_path.sh'
+[102.634s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib'
+[102.634s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/bin'
+[102.634s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/pkgconfig/autoronto_app_task_ima.pc'
+[102.635s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/python3.10/site-packages'
+[102.636s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/bin'
+[102.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.ps1'
+[102.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.dsv'
+[102.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.sh'
+[102.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.bash'
+[102.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.zsh'
+[102.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/colcon-core/packages/autoronto_app_task_ima)
+[102.692s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[102.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[102.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[102.695s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[102.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[102.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[102.832s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[102.926s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[102.928s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/local_setup.ps1'
+[102.930s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/_local_setup_util_ps1.py'
+[102.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/setup.ps1'
+[102.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/local_setup.sh'
+[102.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/_local_setup_util_sh.py'
+[102.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/setup.sh'
+[102.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/local_setup.bash'
+[102.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/setup.bash'
+[103.072s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/local_setup.zsh'
+[103.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/setup.zsh'

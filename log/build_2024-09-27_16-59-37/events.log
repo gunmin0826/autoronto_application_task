@@ -1,0 +1,420 @@
+[0.000000] (-) TimerEvent: {}
+[0.000940] (autoronto_app_task_ima) JobQueued: {'identifier': 'autoronto_app_task_ima', 'dependencies': OrderedDict()}
+[0.001034] (autoronto_app_task_ima) JobStarted: {'identifier': 'autoronto_app_task_ima'}
+[0.015321] (autoronto_app_task_ima) JobProgress: {'identifier': 'autoronto_app_task_ima', 'progress': 'cmake'}
+[0.024731] (autoronto_app_task_ima) JobProgress: {'identifier': 'autoronto_app_task_ima', 'progress': 'build'}
+[0.024804] (autoronto_app_task_ima) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima', '--', '-j2', '-l2'], 'cwd': '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2622'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4604f4cd31545df3f831a14566eb11ae'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2622,unix/Ubuntu:/tmp/.ICE-unix/2622'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33c72693_3f6f_4869_a597_73d58f30bcab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FYI9T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4604f4cd31545df3f831a14566eb11ae'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima:/opt/ros/humble')]), 'shell': False}
+[0.097782] (-) TimerEvent: {}
+[0.217804] (-) TimerEvent: {}
+[0.391447] (autoronto_app_task_ima) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.391689] (-) TimerEvent: {}
+[0.412755] (autoronto_app_task_ima) StdoutLine: {'line': b'[ 33%] Built target talker\n'}
+[0.545875] (-) TimerEvent: {}
+[0.624589] (autoronto_app_task_ima) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/test_sub.cpp.o\x1b[0m\n'}
+[0.624925] (autoronto_app_task_ima) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target solver\x1b[0m\n'}
+[0.658383] (-) TimerEvent: {}
+[0.904713] (autoronto_app_task_ima) StdoutLine: {'line': b'[ 83%] Built target solver\n'}
+[0.905027] (-) TimerEvent: {}
+[1.158468] (-) TimerEvent: {}
+[1.455653] (-) TimerEvent: {}
+[1.636903] (-) TimerEvent: {}
+[1.933094] (-) TimerEvent: {}
+[2.215006] (-) TimerEvent: {}
+[2.495656] (-) TimerEvent: {}
+[2.797447] (-) TimerEvent: {}
+[3.087063] (-) TimerEvent: {}
+[3.359353] (-) TimerEvent: {}
+[3.461200] (-) TimerEvent: {}
+[3.664394] (-) TimerEvent: {}
+[3.951553] (-) TimerEvent: {}
+[4.060734] (-) TimerEvent: {}
+[4.267841] (-) TimerEvent: {}
+[4.474296] (-) TimerEvent: {}
+[4.765302] (-) TimerEvent: {}
+[4.874178] (-) TimerEvent: {}
+[5.203770] (-) TimerEvent: {}
+[5.421976] (-) TimerEvent: {}
+[5.727776] (-) TimerEvent: {}
+[5.903851] (-) TimerEvent: {}
+[6.322897] (-) TimerEvent: {}
+[6.426641] (-) TimerEvent: {}
+[6.626667] (-) TimerEvent: {}
+[6.904485] (-) TimerEvent: {}
+[7.006349] (-) TimerEvent: {}
+[7.223015] (-) TimerEvent: {}
+[7.325803] (-) TimerEvent: {}
+[7.529399] (-) TimerEvent: {}
+[7.830141] (-) TimerEvent: {}
+[7.934837] (-) TimerEvent: {}
+[8.140863] (-) TimerEvent: {}
+[8.248166] (-) TimerEvent: {}
+[8.437668] (-) TimerEvent: {}
+[8.615132] (-) TimerEvent: {}
+[8.969845] (-) TimerEvent: {}
+[9.123222] (-) TimerEvent: {}
+[9.386411] (-) TimerEvent: {}
+[9.494134] (-) TimerEvent: {}
+[9.693407] (-) TimerEvent: {}
+[9.998591] (-) TimerEvent: {}
+[10.102511] (-) TimerEvent: {}
+[10.301763] (-) TimerEvent: {}
+[10.411035] (-) TimerEvent: {}
+[10.670921] (-) TimerEvent: {}
+[10.877843] (-) TimerEvent: {}
+[11.174626] (-) TimerEvent: {}
+[11.284104] (-) TimerEvent: {}
+[11.477429] (-) TimerEvent: {}
+[11.584568] (-) TimerEvent: {}
+[11.782868] (-) TimerEvent: {}
+[11.887008] (-) TimerEvent: {}
+[12.082608] (-) TimerEvent: {}
+[12.377448] (-) TimerEvent: {}
+[12.658908] (-) TimerEvent: {}
+[12.772602] (-) TimerEvent: {}
+[12.904846] (-) TimerEvent: {}
+[13.186106] (-) TimerEvent: {}
+[13.303925] (-) TimerEvent: {}
+[13.605598] (-) TimerEvent: {}
+[13.713799] (-) TimerEvent: {}
+[14.014715] (-) TimerEvent: {}
+[14.255045] (-) TimerEvent: {}
+[14.558540] (-) TimerEvent: {}
+[14.840548] (-) TimerEvent: {}
+[14.950085] (-) TimerEvent: {}
+[15.155718] (-) TimerEvent: {}
+[15.427237] (-) TimerEvent: {}
+[15.619106] (-) TimerEvent: {}
+[15.722274] (-) TimerEvent: {}
+[15.918099] (-) TimerEvent: {}
+[16.188586] (-) TimerEvent: {}
+[16.493073] (-) TimerEvent: {}
+[16.594228] (-) TimerEvent: {}
+[16.803039] (-) TimerEvent: {}
+[16.905103] (-) TimerEvent: {}
+[17.116719] (-) TimerEvent: {}
+[17.417521] (-) TimerEvent: {}
+[17.526451] (-) TimerEvent: {}
+[17.715321] (-) TimerEvent: {}
+[17.817284] (-) TimerEvent: {}
+[18.023295] (-) TimerEvent: {}
+[18.317902] (-) TimerEvent: {}
+[18.438627] (-) TimerEvent: {}
+[18.618629] (-) TimerEvent: {}
+[18.729240] (-) TimerEvent: {}
+[18.927742] (-) TimerEvent: {}
+[19.029752] (-) TimerEvent: {}
+[19.242200] (-) TimerEvent: {}
+[19.550157] (-) TimerEvent: {}
+[19.857282] (-) TimerEvent: {}
+[20.156998] (-) TimerEvent: {}
+[20.259630] (-) TimerEvent: {}
+[20.464780] (-) TimerEvent: {}
+[20.570753] (-) TimerEvent: {}
+[20.764718] (-) TimerEvent: {}
+[21.069011] (-) TimerEvent: {}
+[21.177385] (-) TimerEvent: {}
+[21.388298] (-) TimerEvent: {}
+[21.683100] (-) TimerEvent: {}
+[21.758011] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SolutionSubscriber::topic_callback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.758586] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:28:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Ksol\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.758706] (autoronto_app_task_ima) StderrLine: {'line': b'   28 |     int8_t \x1b[01;35m\x1b[Ksol\x1b[m\x1b[K[length];\n'}
+[21.758810] (autoronto_app_task_ima) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[21.761330] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_sub.cpp:28:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ksol\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.987579] (-) TimerEvent: {}
+[22.090957] (-) TimerEvent: {}
+[22.295028] (-) TimerEvent: {}
+[22.400589] (-) TimerEvent: {}
+[22.570395] (-) TimerEvent: {}
+[22.922893] (-) TimerEvent: {}
+[23.027920] (-) TimerEvent: {}
+[23.265303] (-) TimerEvent: {}
+[23.375131] (-) TimerEvent: {}
+[23.587348] (-) TimerEvent: {}
+[23.691427] (-) TimerEvent: {}
+[23.900357] (-) TimerEvent: {}
+[24.012246] (-) TimerEvent: {}
+[24.129453] (-) TimerEvent: {}
+[24.231048] (-) TimerEvent: {}
+[24.441853] (-) TimerEvent: {}
+[24.676097] (-) TimerEvent: {}
+[24.781149] (-) TimerEvent: {}
+[24.990518] (-) TimerEvent: {}
+[25.091911] (-) TimerEvent: {}
+[25.498874] (-) TimerEvent: {}
+[25.610801] (-) TimerEvent: {}
+[25.811757] (-) TimerEvent: {}
+[26.120285] (-) TimerEvent: {}
+[26.312078] (-) TimerEvent: {}
+[26.458393] (-) TimerEvent: {}
+[26.843013] (-) TimerEvent: {}
+[26.991088] (-) TimerEvent: {}
+[27.208353] (-) TimerEvent: {}
+[27.309253] (-) TimerEvent: {}
+[27.537258] (-) TimerEvent: {}
+[27.639718] (-) TimerEvent: {}
+[27.851383] (-) TimerEvent: {}
+[28.149571] (-) TimerEvent: {}
+[28.259117] (-) TimerEvent: {}
+[28.473304] (-) TimerEvent: {}
+[28.578425] (-) TimerEvent: {}
+[28.788235] (-) TimerEvent: {}
+[29.055801] (-) TimerEvent: {}
+[29.168844] (-) TimerEvent: {}
+[29.283262] (-) TimerEvent: {}
+[29.585302] (-) TimerEvent: {}
+[29.691950] (-) TimerEvent: {}
+[29.901875] (-) TimerEvent: {}
+[30.007585] (-) TimerEvent: {}
+[30.213168] (-) TimerEvent: {}
+[30.327352] (-) TimerEvent: {}
+[30.553311] (-) TimerEvent: {}
+[30.855930] (-) TimerEvent: {}
+[30.990565] (-) TimerEvent: {}
+[31.226157] (-) TimerEvent: {}
+[31.518846] (-) TimerEvent: {}
+[31.626271] (-) TimerEvent: {}
+[31.752649] (-) TimerEvent: {}
+[31.855352] (-) TimerEvent: {}
+[32.058972] (-) TimerEvent: {}
+[32.165946] (-) TimerEvent: {}
+[32.545666] (-) TimerEvent: {}
+[32.815696] (-) TimerEvent: {}
+[33.020155] (-) TimerEvent: {}
+[33.124800] (-) TimerEvent: {}
+[33.335218] (-) TimerEvent: {}
+[33.635271] (-) TimerEvent: {}
+[33.744737] (-) TimerEvent: {}
+[33.953664] (-) TimerEvent: {}
+[34.241711] (-) TimerEvent: {}
+[34.342980] (-) TimerEvent: {}
+[34.546734] (-) TimerEvent: {}
+[34.652817] (-) TimerEvent: {}
+[34.872566] (-) TimerEvent: {}
+[34.982607] (-) TimerEvent: {}
+[35.187593] (-) TimerEvent: {}
+[35.300896] (-) TimerEvent: {}
+[35.830060] (-) TimerEvent: {}
+[35.940923] (-) TimerEvent: {}
+[36.057290] (-) TimerEvent: {}
+[36.357812] (-) TimerEvent: {}
+[36.460070] (-) TimerEvent: {}
+[36.680549] (-) TimerEvent: {}
+[37.009052] (-) TimerEvent: {}
+[37.250502] (-) TimerEvent: {}
+[37.561414] (-) TimerEvent: {}
+[37.668951] (-) TimerEvent: {}
+[37.872249] (-) TimerEvent: {}
+[38.167342] (-) TimerEvent: {}
+[38.268232] (-) TimerEvent: {}
+[38.482129] (-) TimerEvent: {}
+[38.597604] (-) TimerEvent: {}
+[38.816993] (-) TimerEvent: {}
+[39.091280] (-) TimerEvent: {}
+[39.196735] (-) TimerEvent: {}
+[39.411232] (-) TimerEvent: {}
+[39.515794] (-) TimerEvent: {}
+[39.722000] (-) TimerEvent: {}
+[40.020350] (-) TimerEvent: {}
+[40.125182] (-) TimerEvent: {}
+[40.345399] (-) TimerEvent: {}
+[40.643927] (-) TimerEvent: {}
+[40.869978] (-) TimerEvent: {}
+[41.147845] (-) TimerEvent: {}
+[41.319917] (-) TimerEvent: {}
+[41.482966] (-) TimerEvent: {}
+[41.642390] (-) TimerEvent: {}
+[41.762717] (-) TimerEvent: {}
+[41.872146] (-) TimerEvent: {}
+[42.156611] (-) TimerEvent: {}
+[42.261772] (-) TimerEvent: {}
+[42.380369] (-) TimerEvent: {}
+[42.680241] (-) TimerEvent: {}
+[42.957031] (-) TimerEvent: {}
+[43.060361] (-) TimerEvent: {}
+[43.268880] (-) TimerEvent: {}
+[43.370164] (-) TimerEvent: {}
+[43.572834] (-) TimerEvent: {}
+[43.680590] (-) TimerEvent: {}
+[43.885351] (-) TimerEvent: {}
+[43.989050] (-) TimerEvent: {}
+[44.225426] (-) TimerEvent: {}
+[44.328648] (-) TimerEvent: {}
+[44.534142] (-) TimerEvent: {}
+[44.813246] (-) TimerEvent: {}
+[44.917219] (-) TimerEvent: {}
+[45.128140] (-) TimerEvent: {}
+[45.236317] (-) TimerEvent: {}
+[45.445252] (-) TimerEvent: {}
+[45.732519] (-) TimerEvent: {}
+[45.835551] (-) TimerEvent: {}
+[46.055361] (-) TimerEvent: {}
+[46.353134] (-) TimerEvent: {}
+[46.653247] (-) TimerEvent: {}
+[46.763574] (-) TimerEvent: {}
+[46.969383] (-) TimerEvent: {}
+[47.073602] (-) TimerEvent: {}
+[47.276656] (-) TimerEvent: {}
+[47.400623] (-) TimerEvent: {}
+[47.671522] (-) TimerEvent: {}
+[47.933559] (-) TimerEvent: {}
+[48.083013] (-) TimerEvent: {}
+[48.301369] (-) TimerEvent: {}
+[48.410076] (-) TimerEvent: {}
+[48.616560] (-) TimerEvent: {}
+[48.719895] (-) TimerEvent: {}
+[48.920525] (-) TimerEvent: {}
+[49.218133] (-) TimerEvent: {}
+[49.517167] (-) TimerEvent: {}
+[49.817682] (-) TimerEvent: {}
+[50.116375] (-) TimerEvent: {}
+[50.421472] (-) TimerEvent: {}
+[50.527519] (-) TimerEvent: {}
+[50.711642] (-) TimerEvent: {}
+[50.815707] (-) TimerEvent: {}
+[51.045640] (-) TimerEvent: {}
+[51.351493] (-) TimerEvent: {}
+[51.454111] (-) TimerEvent: {}
+[51.662046] (-) TimerEvent: {}
+[51.810747] (-) TimerEvent: {}
+[52.063778] (-) TimerEvent: {}
+[52.269155] (-) TimerEvent: {}
+[52.372435] (-) TimerEvent: {}
+[52.578078] (-) TimerEvent: {}
+[52.681777] (-) TimerEvent: {}
+[52.888866] (-) TimerEvent: {}
+[52.992228] (-) TimerEvent: {}
+[53.299971] (-) TimerEvent: {}
+[53.497849] (-) TimerEvent: {}
+[53.788085] (-) TimerEvent: {}
+[53.888925] (-) TimerEvent: {}
+[54.111602] (-) TimerEvent: {}
+[54.404435] (-) TimerEvent: {}
+[54.703565] (-) TimerEvent: {}
+[54.807061] (-) TimerEvent: {}
+[55.020583] (-) TimerEvent: {}
+[55.393657] (-) TimerEvent: {}
+[55.531644] (-) TimerEvent: {}
+[55.705659] (-) TimerEvent: {}
+[56.004811] (-) TimerEvent: {}
+[56.251013] (-) TimerEvent: {}
+[56.533733] (-) TimerEvent: {}
+[56.653607] (-) TimerEvent: {}
+[56.854952] (-) TimerEvent: {}
+[57.018664] (-) TimerEvent: {}
+[57.444363] (-) TimerEvent: {}
+[57.552232] (-) TimerEvent: {}
+[57.752116] (-) TimerEvent: {}
+[57.861100] (-) TimerEvent: {}
+[58.064699] (-) TimerEvent: {}
+[58.364453] (-) TimerEvent: {}
+[58.470795] (-) TimerEvent: {}
+[58.681444] (-) TimerEvent: {}
+[58.984550] (-) TimerEvent: {}
+[59.279005] (-) TimerEvent: {}
+[59.388698] (-) TimerEvent: {}
+[59.600262] (-) TimerEvent: {}
+[59.896498] (-) TimerEvent: {}
+[60.019106] (-) TimerEvent: {}
+[60.187778] (-) TimerEvent: {}
+[60.319108] (-) TimerEvent: {}
+[60.705235] (-) TimerEvent: {}
+[61.023730] (-) TimerEvent: {}
+[61.125694] (-) TimerEvent: {}
+[61.336743] (-) TimerEvent: {}
+[61.440542] (-) TimerEvent: {}
+[61.655929] (-) TimerEvent: {}
+[61.764662] (-) TimerEvent: {}
+[61.970628] (-) TimerEvent: {}
+[62.073852] (-) TimerEvent: {}
+[62.283703] (-) TimerEvent: {}
+[62.589820] (-) TimerEvent: {}
+[62.840714] (-) TimerEvent: {}
+[63.156357] (-) TimerEvent: {}
+[63.485619] (-) TimerEvent: {}
+[63.636908] (-) TimerEvent: {}
+[63.890874] (-) TimerEvent: {}
+[64.110168] (-) TimerEvent: {}
+[64.410196] (-) TimerEvent: {}
+[64.530923] (-) TimerEvent: {}
+[64.714407] (-) TimerEvent: {}
+[64.818674] (-) TimerEvent: {}
+[64.942272] (-) TimerEvent: {}
+[65.158304] (-) TimerEvent: {}
+[65.437532] (-) TimerEvent: {}
+[65.734436] (-) TimerEvent: {}
+[65.947378] (-) TimerEvent: {}
+[66.217198] (-) TimerEvent: {}
+[66.511116] (-) TimerEvent: {}
+[66.815656] (-) TimerEvent: {}
+[66.953195] (-) TimerEvent: {}
+[67.274271] (-) TimerEvent: {}
+[67.515685] (-) TimerEvent: {}
+[67.764052] (-) TimerEvent: {}
+[68.063025] (-) TimerEvent: {}
+[68.166071] (-) TimerEvent: {}
+[68.450031] (-) TimerEvent: {}
+[68.742167] (-) TimerEvent: {}
+[69.020056] (-) TimerEvent: {}
+[69.341140] (-) TimerEvent: {}
+[69.643029] (-) TimerEvent: {}
+[69.938212] (-) TimerEvent: {}
+[70.039893] (-) TimerEvent: {}
+[70.251985] (-) TimerEvent: {}
+[70.364933] (-) TimerEvent: {}
+[70.575812] (-) TimerEvent: {}
+[70.677569] (-) TimerEvent: {}
+[70.712529] (autoronto_app_task_ima) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[70.963242] (-) TimerEvent: {}
+[71.278573] (-) TimerEvent: {}
+[71.551911] (-) TimerEvent: {}
+[71.846728] (-) TimerEvent: {}
+[71.953631] (-) TimerEvent: {}
+[72.170043] (-) TimerEvent: {}
+[72.275372] (-) TimerEvent: {}
+[72.488813] (-) TimerEvent: {}
+[72.604865] (-) TimerEvent: {}
+[72.904649] (-) TimerEvent: {}
+[73.108966] (-) TimerEvent: {}
+[73.374374] (-) TimerEvent: {}
+[73.628803] (-) TimerEvent: {}
+[73.743368] (-) TimerEvent: {}
+[73.931611] (-) TimerEvent: {}
+[74.032590] (-) TimerEvent: {}
+[74.266070] (-) TimerEvent: {}
+[74.299254] (autoronto_app_task_ima) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[74.341856] (autoronto_app_task_ima) CommandEnded: {'returncode': 0}
+[74.371628] (-) TimerEvent: {}
+[74.662329] (-) TimerEvent: {}
+[74.878823] (-) TimerEvent: {}
+[74.940910] (autoronto_app_task_ima) JobProgress: {'identifier': 'autoronto_app_task_ima', 'progress': 'install'}
+[74.948173] (autoronto_app_task_ima) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima'], 'cwd': '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2622'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4604f4cd31545df3f831a14566eb11ae'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2622,unix/Ubuntu:/tmp/.ICE-unix/2622'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33c72693_3f6f_4869_a597_73d58f30bcab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FYI9T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4604f4cd31545df3f831a14566eb11ae'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima:/opt/ros/humble')]), 'shell': False}
+[74.965335] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[74.965686] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/talker\n'}
+[74.966204] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/listener\n'}
+[74.980919] (-) TimerEvent: {}
+[74.998828] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/listener" to ""\n'}
+[74.999431] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/solver\n'}
+[75.197976] (-) TimerEvent: {}
+[75.219980] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/lib/autoronto_app_task_ima/solver" to ""\n'}
+[75.220467] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/ament_index/resource_index/package_run_dependencies/autoronto_app_task_ima\n'}
+[75.220951] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/ament_index/resource_index/parent_prefix_path/autoronto_app_task_ima\n'}
+[75.221301] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/environment/ament_prefix_path.sh\n'}
+[75.221842] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/environment/ament_prefix_path.dsv\n'}
+[75.222202] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/environment/path.sh\n'}
+[75.222708] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/environment/path.dsv\n'}
+[75.223084] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/local_setup.bash\n'}
+[75.223880] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/local_setup.sh\n'}
+[75.224288] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/local_setup.zsh\n'}
+[75.224815] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/local_setup.dsv\n'}
+[75.225206] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.dsv\n'}
+[75.225956] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/ament_index/resource_index/packages/autoronto_app_task_ima\n'}
+[75.226387] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/cmake/autoronto_app_task_imaConfig.cmake\n'}
+[75.232055] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/cmake/autoronto_app_task_imaConfig-version.cmake\n'}
+[75.233034] (autoronto_app_task_ima) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima/share/autoronto_app_task_ima/package.xml\n'}
+[75.233610] (autoronto_app_task_ima) CommandEnded: {'returncode': 0}
+[75.485428] (-) TimerEvent: {}
+[75.704681] (-) TimerEvent: {}
+[75.850212] (-) TimerEvent: {}
+[75.959592] (-) TimerEvent: {}
+[76.009401] (autoronto_app_task_ima) JobEnded: {'identifier': 'autoronto_app_task_ima', 'rc': 0}
+[76.012870] (-) EventReactorShutdown: {}

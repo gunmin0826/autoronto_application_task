@@ -1,0 +1,40 @@
+[0.014s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[0.196s] [ 33%] Built target listener
+[0.276s] [ 66%] Built target talker
+[0.291s] [35m[1mConsolidate compiler generated dependencies of target solver[0m
+[0.324s] [ 83%] [32mBuilding CXX object CMakeFiles/solver.dir/src/solution.cpp.o[0m
+[10.816s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:[m[K In member function ‘[01m[Kvoid time_sync::SyncCallback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[10.817s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:79:48:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[10.818s]    79 |                          input->data[i] + input->data[j];
+[10.818s] 
+[10.870s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:82:41:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[10.870s]    82 |                                         [01;31m[Km[m[K.data.push_back(i);
+[10.871s]       |                                         [01;31m[K^[m[K
+[10.871s]       |                                         [32m[Ktm[m[K
+[10.891s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.891s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.891s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.891s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.893s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.893s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.893s]                  from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:9[m[K:
+[10.893s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:99:79:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[10.893s]    99 | logger(), "Answer should be (%d,%d)\n", [01;31m[Km[m[K.data[0], m.data[1]);
+[10.894s]       |                                         [01;31m[K^[m[K
+[10.894s] 
+[10.904s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:100:39:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[10.904s]   100 |                 solution_pub->publish([01;31m[Km[m[K);
+[10.905s]       |                                       [01;31m[K^[m[K
+[10.905s]       |                                       [32m[Ktm[m[K
+[10.905s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:58:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksample[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.905s]    58 |         const int8_t [01;35m[Ksample[m[K = input->data[0];
+[10.906s]       |                      [01;35m[K^~~~~~[m[K
+[26.118s] gmake[2]: *** [CMakeFiles/solver.dir/build.make:76: CMakeFiles/solver.dir/src/solution.cpp.o] Error 1
+[26.119s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/solver.dir/all] Error 2
+[26.129s] gmake: *** [Makefile:146: all] Error 2
+[26.150s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2

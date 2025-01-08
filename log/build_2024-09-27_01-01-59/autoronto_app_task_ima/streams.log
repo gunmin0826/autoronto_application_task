@@ -1,0 +1,66 @@
+[0.088s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.392s] [ 33%] Built target listener
+[0.398s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[0.787s] [ 83%] Built target solver
+[12.955s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[12.955s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:20:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[12.955s]    47 |     for (int i=0; [01;35m[Ki<9[m[K, i++){
+[12.955s]       |                   [01;35m[K~^~[m[K
+[12.956s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[12.956s]    47 |     for (int i=0; i<9, i++[01;31m[K)[m[K{
+[12.956s]       |                           [01;31m[K^[m[K
+[12.956s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:48:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >::Int8_(int&)[m[K’
+[12.957s]    48 |                 vec.push_back(int8(payload[i][01;31m[K)[m[K;
+[12.957s]       |                                              [01;31m[K^[m[K
+[12.957s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int8.hpp:7[m[K,
+[12.957s]                  from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:13[m[K:
+[12.958s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[12.958s]    45 |   explicit [01;36m[KInt8_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[12.958s]       |            [01;36m[K^~~~~[m[K
+[12.959s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:45:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+[12.959s]    45 |   explicit Int8_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[12.959s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[12.959s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::Int8_<ContainerAllocator>::Int8_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[12.959s]    36 |   explicit [01;36m[KInt8_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[12.959s]       |            [01;36m[K^~~~~[m[K
+[12.959s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:36:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+[12.959s]    36 |   explicit Int8_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+[12.959s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.959s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(const std_msgs::msg::Int8_<std::allocator<void> >&)[m[K’
+[12.960s]    32 | struct [01;36m[KInt8_[m[K
+[12.960s]       |        [01;36m[K^~~~~[m[K
+[12.960s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >&[m[K’
+[12.960s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int8_<std::allocator<void> >::Int8_(std_msgs::msg::Int8_<std::allocator<void> >&&)[m[K’
+[12.960s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int8__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >&&[m[K’
+[12.960s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:51:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >[m[K’} and ‘[01m[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’)
+[12.961s]    51 |     msg.data = [01;31m[Kvec[m[K;
+[12.961s]       |                [01;31m[K^~~[m[K
+[12.961s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[12.961s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[12.961s]                  from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:6[m[K:
+[12.961s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = signed char; _Alloc = std::allocator<signed char>][m[K’
+[12.961s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[12.961s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[12.961s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::vector<signed char, std::allocator<signed char> >&[m[K’
+[12.961s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[12.961s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[12.961s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[12.961s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[12.962s]                  from [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:6[m[K:
+[12.962s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = signed char; _Alloc = std::allocator<signed char>][m[K’
+[12.962s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[12.962s]       |       [01;36m[K^~~~~~~~[m[K
+[12.962s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ to ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >&&[m[K’
+[12.962s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[12.962s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[12.962s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = signed char; _Alloc = std::allocator<signed char>][m[K’
+[12.962s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[12.962s]       |       [01;36m[K^~~~~~~~[m[K
+[12.962s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ to ‘[01m[Kstd::initializer_list<signed char>[m[K’
+[12.963s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[12.963s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[17.804s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+[17.804s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+[17.804s] gmake: *** [Makefile:146: all] Error 2
+[17.831s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2

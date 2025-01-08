@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.002028] (autoronto_app_task_ima) JobQueued: {'identifier': 'autoronto_app_task_ima', 'dependencies': OrderedDict()}
+[0.002114] (autoronto_app_task_ima) JobStarted: {'identifier': 'autoronto_app_task_ima'}
+[0.019491] (autoronto_app_task_ima) JobProgress: {'identifier': 'autoronto_app_task_ima', 'progress': 'cmake'}
+[0.019597] (autoronto_app_task_ima) JobProgress: {'identifier': 'autoronto_app_task_ima', 'progress': 'build'}
+[0.019674] (autoronto_app_task_ima) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima', '--', '-j2', '-l2'], 'cwd': '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2622'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4604f4cd31545df3f831a14566eb11ae'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu:@/tmp/.ICE-unix/2622,unix/Ubuntu:/tmp/.ICE-unix/2622'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/33c72693_3f6f_4869_a597_73d58f30bcab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FYI9T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4604f4cd31545df3f831a14566eb11ae'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/install/autoronto_app_task_ima:/opt/ros/humble')]), 'shell': False}
+[0.106620] (-) TimerEvent: {}
+[0.172815] (autoronto_app_task_ima) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.196035] (autoronto_app_task_ima) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.222984] (-) TimerEvent: {}
+[0.269043] (autoronto_app_task_ima) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o\x1b[0m\n'}
+[0.311212] (autoronto_app_task_ima) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.324257] (-) TimerEvent: {}
+[0.419884] (autoronto_app_task_ima) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target solver\x1b[0m\n'}
+[0.440165] (-) TimerEvent: {}
+[0.571495] (-) TimerEvent: {}
+[0.590698] (autoronto_app_task_ima) StdoutLine: {'line': b'[ 83%] Built target solver\n'}
+[0.675811] (-) TimerEvent: {}
+[0.818903] (-) TimerEvent: {}
+[0.932649] (-) TimerEvent: {}
+[1.049133] (-) TimerEvent: {}
+[1.152555] (-) TimerEvent: {}
+[1.272062] (-) TimerEvent: {}
+[1.389692] (-) TimerEvent: {}
+[1.524447] (-) TimerEvent: {}
+[1.631291] (-) TimerEvent: {}
+[1.767041] (-) TimerEvent: {}
+[1.869014] (-) TimerEvent: {}
+[1.977879] (-) TimerEvent: {}
+[2.098947] (-) TimerEvent: {}
+[2.212611] (-) TimerEvent: {}
+[2.327823] (-) TimerEvent: {}
+[2.448211] (-) TimerEvent: {}
+[2.557576] (-) TimerEvent: {}
+[2.667793] (-) TimerEvent: {}
+[2.782035] (-) TimerEvent: {}
+[2.887697] (-) TimerEvent: {}
+[3.001057] (-) TimerEvent: {}
+[3.109252] (-) TimerEvent: {}
+[3.217313] (-) TimerEvent: {}
+[3.340673] (-) TimerEvent: {}
+[3.447693] (-) TimerEvent: {}
+[3.554961] (-) TimerEvent: {}
+[3.666593] (-) TimerEvent: {}
+[3.767342] (-) TimerEvent: {}
+[3.885555] (-) TimerEvent: {}
+[4.022068] (-) TimerEvent: {}
+[4.145192] (-) TimerEvent: {}
+[4.260132] (-) TimerEvent: {}
+[4.361606] (-) TimerEvent: {}
+[4.466299] (-) TimerEvent: {}
+[4.576710] (-) TimerEvent: {}
+[4.688010] (-) TimerEvent: {}
+[4.789085] (-) TimerEvent: {}
+[4.906616] (-) TimerEvent: {}
+[5.015856] (-) TimerEvent: {}
+[5.116742] (-) TimerEvent: {}
+[5.234547] (-) TimerEvent: {}
+[5.343244] (-) TimerEvent: {}
+[5.445465] (-) TimerEvent: {}
+[5.569237] (-) TimerEvent: {}
+[5.680444] (-) TimerEvent: {}
+[5.783215] (-) TimerEvent: {}
+[5.893750] (-) TimerEvent: {}
+[6.006898] (-) TimerEvent: {}
+[6.114861] (-) TimerEvent: {}
+[6.217939] (-) TimerEvent: {}
+[6.348297] (-) TimerEvent: {}
+[6.484266] (-) TimerEvent: {}
+[6.585008] (-) TimerEvent: {}
+[6.714634] (-) TimerEvent: {}
+[6.826356] (-) TimerEvent: {}
+[6.934958] (-) TimerEvent: {}
+[7.057368] (-) TimerEvent: {}
+[7.163576] (-) TimerEvent: {}
+[7.274189] (-) TimerEvent: {}
+[7.377535] (-) TimerEvent: {}
+[7.505265] (-) TimerEvent: {}
+[7.613320] (-) TimerEvent: {}
+[7.755329] (-) TimerEvent: {}
+[7.862956] (-) TimerEvent: {}
+[7.973090] (-) TimerEvent: {}
+[8.104534] (-) TimerEvent: {}
+[8.233630] (-) TimerEvent: {}
+[8.343396] (-) TimerEvent: {}
+[8.452525] (-) TimerEvent: {}
+[8.553508] (-) TimerEvent: {}
+[8.666717] (-) TimerEvent: {}
+[8.772226] (-) TimerEvent: {}
+[8.886617] (-) TimerEvent: {}
+[9.061774] (-) TimerEvent: {}
+[9.172158] (-) TimerEvent: {}
+[9.313364] (-) TimerEvent: {}
+[9.477582] (-) TimerEvent: {}
+[9.581485] (-) TimerEvent: {}
+[9.701891] (-) TimerEvent: {}
+[9.810959] (-) TimerEvent: {}
+[9.923136] (-) TimerEvent: {}
+[10.031018] (-) TimerEvent: {}
+[10.187145] (-) TimerEvent: {}
+[10.320740] (-) TimerEvent: {}
+[10.456890] (-) TimerEvent: {}
+[10.571050] (-) TimerEvent: {}
+[10.680973] (-) TimerEvent: {}
+[10.708960] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid InputPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.709343] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:39:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _dim_type = class std::vector<std_msgs::msg::MultiArrayDimension_<std::allocator<void> >, std::allocator<std_msgs::msg::MultiArrayDimension_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::vector<std_msgs::msg::MultiArrayDimension_<std::allocator<void> >, std::allocator<std_msgs::msg::MultiArrayDimension_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kpushback\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpush_back\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.709468] (autoronto_app_task_ima) StderrLine: {'line': b'   39 |     msg.layout.dim.\x1b[01;31m\x1b[Kpushback\x1b[m\x1b[K(m_a_d); // because we know the topic /input sends array (1-dim), we only push once\n'}
+[10.710148] (autoronto_app_task_ima) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.710272] (autoronto_app_task_ima) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kpush_back\x1b[m\x1b[K\n'}
+[10.710373] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:39:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.710476] (autoronto_app_task_ima) StderrLine: {'line': b'   39 |     msg.layout.dim.pushback(m_a_d\x1b[01;31m\x1b[K)\x1b[m\x1b[K; // because we know the topic /input sends array (1-dim), we only push once\n'}
+[10.710573] (autoronto_app_task_ima) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.715893] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.716100] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {\x1b[01;31m\x1b[K1\x1b[m\x1b[K,2,3,5,8,13,21,34,55};\n'}
+[10.716217] (autoronto_app_task_ima) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.716348] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.716552] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {1,\x1b[01;31m\x1b[K2\x1b[m\x1b[K,3,5,8,13,21,34,55};\n'}
+[10.716675] (autoronto_app_task_ima) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.716770] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.716883] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {1,2,\x1b[01;31m\x1b[K3\x1b[m\x1b[K,5,8,13,21,34,55};\n'}
+[10.716977] (autoronto_app_task_ima) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.717071] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.717256] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {1,2,3,\x1b[01;31m\x1b[K5\x1b[m\x1b[K,8,13,21,34,55};\n'}
+[10.717376] (autoronto_app_task_ima) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.717470] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.717581] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {1,2,3,5,\x1b[01;31m\x1b[K8\x1b[m\x1b[K,13,21,34,55};\n'}
+[10.717677] (autoronto_app_task_ima) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.717770] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.717876] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {1,2,3,5,8,\x1b[01;31m\x1b[K13\x1b[m\x1b[K,21,34,55};\n'}
+[10.717969] (autoronto_app_task_ima) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[10.718070] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.718167] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {1,2,3,5,8,13,\x1b[01;31m\x1b[K21\x1b[m\x1b[K,34,55};\n'}
+[10.718267] (autoronto_app_task_ima) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[10.718362] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.718458] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {1,2,3,5,8,13,21,\x1b[01;31m\x1b[K34\x1b[m\x1b[K,55};\n'}
+[10.718559] (autoronto_app_task_ima) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[10.718652] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kint8\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[10.718757] (autoronto_app_task_ima) StderrLine: {'line': b'   46 |     int8 payload[9] = {1,2,3,5,8,13,21,34,\x1b[01;31m\x1b[K55\x1b[m\x1b[K};\n'}
+[10.718973] (autoronto_app_task_ima) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[10.730862] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmemcopy\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmemcpy\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.731192] (autoronto_app_task_ima) StderrLine: {'line': b'   47 |     std::\x1b[01;31m\x1b[Kmemcopy\x1b[m\x1b[K(&vec, payload, padload+9);\n'}
+[10.731360] (autoronto_app_task_ima) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.731506] (autoronto_app_task_ima) StderrLine: {'line': b'      |          \x1b[32m\x1b[Kmemcpy\x1b[m\x1b[K\n'}
+[10.736034] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpadload\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.736322] (autoronto_app_task_ima) StderrLine: {'line': b'   47 |     std::memcopy(&vec, payload, \x1b[01;31m\x1b[Kpadload\x1b[m\x1b[K+9);\n'}
+[10.736486] (autoronto_app_task_ima) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.736625] (autoronto_app_task_ima) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Kpayload\x1b[m\x1b[K\n'}
+[10.769385] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:49:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int8MultiArray_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<signed char, std::allocator<signed char> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.769669] (autoronto_app_task_ima) StderrLine: {'line': b'   49 |     msg.data = \x1b[01;31m\x1b[Kvec\x1b[m\x1b[K;\n'}
+[10.769781] (autoronto_app_task_ima) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.770100] (autoronto_app_task_ima) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:72\x1b[m\x1b[K,\n'}
+[10.770259] (autoronto_app_task_ima) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[10.770354] (autoronto_app_task_ima) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:6\x1b[m\x1b[K:\n'}
+[10.770448] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/vector.tcc:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = signed char; _Alloc = std::allocator<signed char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.770562] (autoronto_app_task_ima) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[10.770652] (autoronto_app_task_ima) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.770742] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/vector.tcc:199:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<signed char, std::allocator<signed char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.770852] (autoronto_app_task_ima) StderrLine: {'line': b'  199 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[10.770943] (autoronto_app_task_ima) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.771032] (autoronto_app_task_ima) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[10.771121] (autoronto_app_task_ima) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[10.771211] (autoronto_app_task_ima) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:6\x1b[m\x1b[K:\n'}
+[10.771300] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:709:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = signed char; _Alloc = std::allocator<signed char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.771399] (autoronto_app_task_ima) StderrLine: {'line': b'  709 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[10.771490] (autoronto_app_task_ima) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.771579] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:709:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<signed char, std::allocator<signed char> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.771678] (autoronto_app_task_ima) StderrLine: {'line': b'  709 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[10.771769] (autoronto_app_task_ima) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.771858] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:730:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = signed char; _Alloc = std::allocator<signed char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.771951] (autoronto_app_task_ima) StderrLine: {'line': b'  730 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[10.772042] (autoronto_app_task_ima) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.772131] (autoronto_app_task_ima) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:730:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std_msgs::msg::Int8_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<signed char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.772240] (autoronto_app_task_ima) StderrLine: {'line': b'  730 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[10.772331] (autoronto_app_task_ima) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.807643] (-) TimerEvent: {}
+[10.914063] (-) TimerEvent: {}
+[11.020410] (-) TimerEvent: {}
+[11.127103] (-) TimerEvent: {}
+[11.240009] (-) TimerEvent: {}
+[11.351087] (-) TimerEvent: {}
+[11.644516] (-) TimerEvent: {}
+[11.747324] (-) TimerEvent: {}
+[11.866137] (-) TimerEvent: {}
+[12.028892] (-) TimerEvent: {}
+[12.142009] (-) TimerEvent: {}
+[12.248635] (-) TimerEvent: {}
+[12.351898] (-) TimerEvent: {}
+[12.458782] (-) TimerEvent: {}
+[12.570463] (-) TimerEvent: {}
+[12.699391] (-) TimerEvent: {}
+[12.807596] (-) TimerEvent: {}
+[12.913631] (-) TimerEvent: {}
+[13.022583] (-) TimerEvent: {}
+[13.143748] (-) TimerEvent: {}
+[13.259969] (-) TimerEvent: {}
+[13.368550] (-) TimerEvent: {}
+[13.481716] (-) TimerEvent: {}
+[13.587023] (-) TimerEvent: {}
+[13.689057] (-) TimerEvent: {}
+[13.796255] (-) TimerEvent: {}
+[13.921303] (-) TimerEvent: {}
+[14.031739] (-) TimerEvent: {}
+[14.168795] (-) TimerEvent: {}
+[14.275808] (-) TimerEvent: {}
+[14.379650] (-) TimerEvent: {}
+[14.620559] (-) TimerEvent: {}
+[14.735434] (-) TimerEvent: {}
+[14.868964] (-) TimerEvent: {}
+[14.984579] (-) TimerEvent: {}
+[15.085271] (-) TimerEvent: {}
+[15.186349] (-) TimerEvent: {}
+[15.290928] (-) TimerEvent: {}
+[15.405246] (-) TimerEvent: {}
+[15.517886] (-) TimerEvent: {}
+[15.707643] (-) TimerEvent: {}
+[15.827264] (-) TimerEvent: {}
+[15.835255] (autoronto_app_task_ima) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1\n'}
+[15.839238] (autoronto_app_task_ima) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2\n'}
+[15.839515] (autoronto_app_task_ima) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.862153] (autoronto_app_task_ima) CommandEnded: {'returncode': 2}
+[15.927749] (-) TimerEvent: {}
+[16.030100] (-) TimerEvent: {}
+[16.148957] (-) TimerEvent: {}
+[16.219457] (autoronto_app_task_ima) JobEnded: {'identifier': 'autoronto_app_task_ima', 'rc': 2}
+[16.231395] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[ 50%] Built target listener
+[ 83%] Built target solver
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:47:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_random_engine[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   47 | huffle (std::begin(payload), std::end(payload), std::[01;31m[Kdefault_random_engine[m[K(seed)); // shuffle the order of payload
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/test_pub.cpp.o[0m
+[ 50%] Built target listener
+[ 83%] Built target solver
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid InputPublisher::timer_callback()[m[K’:
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:24:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {[01;31m[K1[m[K,2,3,5,8,13,21,34,55};
+      |                        [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:26:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {1,[01;31m[K2[m[K,3,5,8,13,21,34,55};
+      |                          [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:28:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {1,2,[01;31m[K3[m[K,5,8,13,21,34,55};
+      |                            [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:30:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {1,2,3,[01;31m[K5[m[K,8,13,21,34,55};
+      |                              [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:32:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {1,2,3,5,[01;31m[K8[m[K,13,21,34,55};
+      |                                [01;31m[K^[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:34:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {1,2,3,5,8,[01;31m[K13[m[K,21,34,55};
+      |                                  [01;31m[K^~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:37:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {1,2,3,5,8,13,[01;31m[K21[m[K,34,55};
+      |                                     [01;31m[K^~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:40:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {1,2,3,5,8,13,21,[01;31m[K34[m[K,55};
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:43:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kint8[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+   46 |     int8 payload[9] = {1,2,3,5,8,13,21,34,[01;31m[K55[m[K};
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/test_pub.cpp:46:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   46 |     int8 [01;35m[Kpayload[m[K[9] = {1,2,3,5,8,13,21,34,55};
+      |          [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

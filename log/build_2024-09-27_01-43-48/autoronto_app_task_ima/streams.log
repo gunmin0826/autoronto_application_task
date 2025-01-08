@@ -1,0 +1,13 @@
+[0.069s] Invoking command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
+[0.565s] [ 33%] Built target talker
+[0.578s] [ 66%] Built target listener
+[0.654s] [35m[1mConsolidate compiler generated dependencies of target solver[0m
+[0.733s] [ 83%] [32mBuilding CXX object CMakeFiles/solver.dir/src/solution.cpp.o[0m
+[11.921s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:[m[K In member function ‘[01m[Kvoid time_sync::SyncCallback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[11.922s] [01m[K/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/src/solution.cpp:58:42:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst signed char[m[K’} to non-scalar type ‘[01m[Kconst int8[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Int8_<std::allocator<void> >[m[K’} requested
+[11.922s]    58 |         const int8 sample = input->data[0[01;31m[K][m[K;
+[11.922s]       |                                          [01;31m[K^[m[K
+[28.359s] gmake[2]: *** [CMakeFiles/solver.dir/build.make:76: CMakeFiles/solver.dir/src/solution.cpp.o] Error 1
+[28.361s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/solver.dir/all] Error 2
+[28.361s] gmake: *** [Makefile:146: all] Error 2
+[28.370s] Invoked command in '/home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/autoronto_app_task_ima/build/autoronto_app_task_ima -- -j2 -l2
