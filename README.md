@@ -1,5 +1,5 @@
 This is an application task that I created for a self-driving car team.
-I had zero experience with ROS2, but this application task helped me getting my feet into the water :)
+I had zero experience with ROS2, but reading beginner section of ros2 documentation and completing this application task helped me getting my feet into the water :)
 
 Clone this repo into /src directory in your ros2_wc then build the load from source by running following commands in the /src
   ```
